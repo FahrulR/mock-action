@@ -15,10 +15,10 @@ on:
     inputs:
         username:
           description: 'Username for authentication'
-          required: true
+          required: false
         password:
           description: 'Password for authentication'
-          required: true
+          required: false
         action:
           description: 'Action to perform'
           required: true
