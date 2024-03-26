@@ -44,3 +44,8 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+
+      - name: Print Inputs
+        run: |
+          echo "Username: ${{ github.event.inputs.username }}"
+          echo "Action: ${{ github.event.inputs.action }}"
